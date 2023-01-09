@@ -1,14 +1,15 @@
 
 
 import { Provider } from 'react-redux';
-import BodyComponent from './components/BodyComponent';
-import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
-import { store } from './store';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
+import BodyComponent from './components/BodyComponent';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
+import { store } from './store';
 import VideoDetails from './components/VideoDetails';
 
 
