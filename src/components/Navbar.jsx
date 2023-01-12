@@ -1,6 +1,8 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
+
 import { toggleMenu } from '../appSlice'
+
 const Navbar = () => {
   const dispatch = useDispatch()
   const toggleMenuHandler = () => {
