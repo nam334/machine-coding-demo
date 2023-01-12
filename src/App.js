@@ -11,6 +11,7 @@ import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import { store } from './store';
 import VideoDetails from './components/VideoDetails';
+import ChatComponent from './components/ChatComponent';
 
 
 function App() {
@@ -30,11 +31,14 @@ function App() {
     <Provider store={store}>
     <div className="App">
      <Navbar/>
-     <div className="grid grid-cols-4 gap-4">
+     <div className="grid grid-cols-3 gap-4">
       <div><Sidebar/></div>
       <div>
         {/* <BodyComponent/> */}
         <RouterProvider router={router} />
+        </div>
+        <div>
+          <ChatComponent/>
         </div>
       </div>
     </div>
