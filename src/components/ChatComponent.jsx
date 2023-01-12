@@ -19,7 +19,7 @@ const ChatComponent = () => {
             chat && chat.map((msg) => (
                 <div className='border border-indigo-600 rounded font-mono my-1 p-1 '>{msg}</div>
             ))
-        }
+        } 
        
     </div>
     <div>

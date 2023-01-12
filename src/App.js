@@ -26,7 +26,7 @@ function App() {
       element: <VideoDetails/>,
     },
   ]);
-
+ 
   return (
     <Provider store={store}>
     <div className="App">

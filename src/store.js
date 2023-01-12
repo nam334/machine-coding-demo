@@ -10,4 +10,4 @@ export const store = configureStore({
         video:videoSlice,
         chat:chatSlice,
     }
-})
+}) 

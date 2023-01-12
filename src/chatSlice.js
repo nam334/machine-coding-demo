@@ -8,7 +8,7 @@ const chatSlice = createSlice({
             state.splice(10,1)
             state = state.unshift(action.payload)
         }
-    }
+    } 
 })
 
 export const {addToChat} = chatSlice.actions 
