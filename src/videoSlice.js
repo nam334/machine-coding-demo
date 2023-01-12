@@ -13,4 +13,4 @@ const videoSlice = createSlice({
 })
 
 export const {addItemToVideo} = videoSlice.actions 
-export default videoSlice.reducer
+export default videoSlice.reducer 
